@@ -1,0 +1,48 @@
+// ::ng-deep .p-menubar {
+//     height: 100px;
+//     .p-menubar-button {
+//         position:absolute;
+//         right: 40px;
+//     }
+//     p-menubarsub {
+//         position: absolute;
+//         right: 40px;
+//         .p-menuitem {
+//             padding-left: 1.3rem;
+//             font-size: smaller;
+//             .p-submenu-list{
+//                 position: inherit;
+//             }
+//         }
+//     }
+// }
+
+// .brandArea {
+//     position: inherit;
+//     display: inline-flex;
+//     left: 20px;
+//     .topFirstName {
+//         padding-left: 0.3rem;
+//         padding-top: 1.7rem;
+//         font-weight: bolder;
+//         color: white;
+//     }
+//     .topLastName {
+//         padding-left: 0.3rem;
+//         padding-top: 1.7rem;
+//         color: white;
+//     }
+// }
+
+.common-chrome {
+    background-color: rgb(191, 246, 254);
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    .branding {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
